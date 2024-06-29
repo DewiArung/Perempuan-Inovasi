@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(175, 57, 86);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: aliceblue;
+}
+
+header > h1 {
+    font-size: large;
+}
+
+nav > ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: aliceblue;
+}
+
+#nav-item:hover {
+    border-bottom: 2px solid aliceblue;
+    cursor: pointer;
+}
+
+
+#profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 160px;
+}
+
+#profile-text > h1 {
+    font-size: 25px;
+}
+#profile-text > h2 {
+    font-size: 40px;
+}
+#profile-text > p {
+    font-size: 15px;
+}
+#profile-text > button {
+    font-size: 20x;
+    font-weight: bolder;
+    color: rgb(128, 0, 32);
+    padding: 10px;
+    background-color:rgb(245, 190, 51);
+    border: 0;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, label, button, #warning {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: rgb(175, 57, 86);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
